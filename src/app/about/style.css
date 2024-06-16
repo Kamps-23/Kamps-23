@@ -1,0 +1,24 @@
+h1 {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  text-wrap: pretty;
+}
+
+.about-grid {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) fit-content(40ch);
+  gap: 2rem;
+}
+
+.second {
+  display: flex;
+  justify-content: end;
+}
+
+.image-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}

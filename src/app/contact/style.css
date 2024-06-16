@@ -1,0 +1,49 @@
+.footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: baseline;
+  margin: 32px 0px;
+}
+
+.mwala {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: initial;
+  text-decoration: underline;
+}
+
+.wrapper {
+  padding: 0px 48px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  margin: 8px;
+  padding: 24px 32px;
+  border-radius: 24px;
+}
+
+button {
+  background-color: grey;
+  width: 25%;
+  font-weight: 700;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.infor-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
