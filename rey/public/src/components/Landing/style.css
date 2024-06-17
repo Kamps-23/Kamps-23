@@ -1,0 +1,19 @@
+.hero {
+  padding: 48px;
+}
+
+.text-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hero-text {
+  display: block;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 4.875rem;
+  color: #1e1e1e;
+  text-align: left;
+  justify-content: center;
+}
